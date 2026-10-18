@@ -9,8 +9,8 @@ database_id = "00000000-0000-0000-0000-000000000000"
 
 [vars]
 # Home coordinates for weather
-WT_HOME_LAT = "51.4779"
-WT_HOME_LON = "0.0015"
+WT_HOME_LAT = "38.741894"
+WT_HOME_LON = "-90.606033"
 
 # GitHub CDN base URL for sanctuary assets (portraits, backgrounds)
 # e.g. "https://raw.githubusercontent.com/user/repo/main/assets"

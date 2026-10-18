@@ -256,8 +256,8 @@ export const TOOLS: ToolDef[] = [
 ];
 
 async function handle(name: string, args: Record<string, unknown>, env: Env): Promise<string> {
-  const homeLat = parseFloat(env.WT_HOME_LAT || '51.4779');
-  const homeLon = parseFloat(env.WT_HOME_LON || '0.0015');
+  const homeLat = parseFloat(env.WT_HOME_LAT || '38.741894');
+  const homeLon = parseFloat(env.WT_HOME_LON || '-90.606033');
   const homeLabel = env.WT_HOME_LABEL || 'Home';
 
   switch (name) {
